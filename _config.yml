@@ -1,5 +1,5 @@
 # Site settings
-title: PHOTORAMA
+title: ThavishEngg
 email: ""
 description: "Thavish Engg"
 url: "https://webtoxingroup.github.io/thavishengg.github.io/"
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://webtoxingroup.github.io/thavishengg.github.io/thavish/gallery/"  
+  - JOURNAL: "https://webtoxingroup.github.io/thavishengg.github.io/thavish/journal/"
+  - ABOUT: "https://webtoxingroup.github.io/thavishengg.github.io/thavish/about/"
 
 # All translation keys
 translations:
