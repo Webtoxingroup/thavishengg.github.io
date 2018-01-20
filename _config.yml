@@ -1,9 +1,9 @@
 # Site settings
 title: PHOTORAMA
 email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+description: "Thavish Engg"
+url: "https://webtoxingroup.github.io/thavishengg.github.io/"
+baseurl: "/thavish"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -15,10 +15,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   thavish
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: Welding Shop website template
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
