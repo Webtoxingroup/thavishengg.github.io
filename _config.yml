@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://webtoxingroup.github.io/thavishengg.github.io/thavish/gallery/"  
-  - JOURNAL: "https://webtoxingroup.github.io/thavishengg.github.io/thavish/journal/"
-  - ABOUT: "https://webtoxingroup.github.io/thavishengg.github.io/thavish/about/"
+  - GALLERY: "https://webtoxingroup.github.io/thavishengg.github.io/gallery/"  
+  - JOURNAL: "https://webtoxingroup.github.io/thavishengg.github.io/journal/"
+  - ABOUT: "https://webtoxingroup.github.io/thavishengg.github.io/about/"
 
 # All translation keys
 translations:
