@@ -1,163 +1,71 @@
-p h o t o r a m a 
-====================
+# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
-![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
+[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-----------
+## Preview
 
----> [DEMO](https://sunbliss.github.io/photorama/ "DEMO")  <---
+[![Grayscale Preview](https://startbootstrap.com/assets/img/templates/grayscale.jpg)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
 
-----------
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
 
-A theme for **jekyll**. 
+## Status
 
-Created for gh-pages (project page).
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-grayscale/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://www.npmjs.com/package/startbootstrap-grayscale)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev)
 
-This template was crafted having in mind the photobloggers.
+## Download and Installation
 
-It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll "Clean Blog") as its basis.
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
+* Install via npm: `npm i startbootstrap-grayscale`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-grayscale)
 
-----------
-## Change Log
+## Usage
 
-### Version 2.1 (3/22/2017)
+### Basic Usage
 
-* Fixed script loading. 
-* Fixed padding bottom for the navbar toggle menu.
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
+### Advanced Usage
 
-### Version 2.0 (2/4/2017)
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-* HTTPS is now enforced. 
+#### Gulp Tasks
 
-**Custom Domains are not supported.**
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-For the time being, the only way to apply a custom domain name is by removing HTTPS as of the previous version. 
-Hoping Github developers will give its users the ability to add a custom domain served under security.
+## Bugs and Issues
 
-### Version 1.2 (1/31/2017)
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
 
-* Fixed footer code so that the twitter icon links to the twitter_username instead of instagram_username.
+## Custom Builds
 
-### Version 1.1 (7/15/2016)
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-* Improved galleries and search section.
-* Better rendering of the header text.
+## About
 
-### Version 1.0 (6/19/2016)
-* Initial Template
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-----------
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
- **IMPORTANT!!!**
-================
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-### Before you begin: Change the URL and the BASEURL as well as the internal nav links in the _config.yml
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-The **URL** should say `https://yourusername.github.io`
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-The **BASEURL** should say `/repositoryname`
+## Copyright and License
 
-**Internal nav** should say
-
-  nav:
-
-  - GALLERY: `"https://yourusername.github.io/repositoryname/gallery/"`
-  - JOURNAL: `"https://yourusername.github.io/repositoryname/journal/"`
-  - ABOUT: `"https://yourusername.github.io/repositoryname/about/`"
-
-If there are problems with loading assets like CSS files and images, make sure that both **URL** and **BASEURL** are set correctly!!! 
-
-----------
-
- **NOT FOR HTTPS served repos!!!**
-==================================
-
-* Applies for v1.2!
-
-If you want to use your **own domain** go to the root of your project's repository, create a CNAME file and add a line with your domain name, e.g. `www.yourdomain.com`.
-
-Go to your domain name registrar and add a CNAME record pointing your domain to GitHub Pages:
-- type: CNAME
-- host: www.yourdomainname.com
-- answer: yourusername.github.io/repositoryname
-- TTL: 300
-
-----------
-
-Usage
-============ 
-
-###Quick Start
-
-1. [Fork this repository](https://github.com/sunbliss/photorama/fork) to get started. 
-2. Go to `https://github.com/yourusername/photorama/settings`
-3. Rename the repository to your new project, e.g. *myphotoblog*
-2. Create a new branch called `gh-pages` in your repository. 
-3. Go to the branches directory at `https://github.com/yourusername/repositoryname/branches` and *change* **default branch** to **gh-pages**.
-4. Delete **master** branch. 
-3. GitHub will build your site automatically and publish it at `https://yourusername.github.io/repositoryname/`.  
-
-----------
-
-- The homepage welcomes the visitors with 3 animated photos of your choice. It is recommended that all three are landscape orientated for best view.
-
-To change the welcome content at the far left of the Home page go here: `/index.html` and fill the responding lines of the YAML with your desired text.
-
-----------
-
-- To enable **disqus** comments in the posts, change their front matter for comments to 'true'.
-
-You must have a registered account in disqus, where you will also register a forum for your website.
-
-Find the line `s.src = '//yourproject.disqus.com/embed.js';  // ` in the disqus_comments.html and REPLACE 'yourproject' with your forum shortname.
-
-----------
-
-- In order to send **newsletters** about your posts to your subscribers, you should register an account in [tinyletter](http://www.tinyletter.com " tinyletter").
-
-Find the line `'https://tinyletter.com/yourproject', ` in the *newsletter.html* and replace 'yourproject' with your registered website.
-
-You can always ommit the newsletter rendering by deleting the line `{% include newsletter.html %}
-` in the *default.html* layout.
-
-----------
-
-If you want to use the matching **NEWSLETTER** template, you must always create a new file  by copying its respective index.html and renaming it to e.g. 2016-March-newsletter.html and then save it inside the folder and the accompanying images inside the 'images folder', so it can be accessed to your viewers through their browser. In this case the root url for the above newsletter will be ***http://yourgithubusername.github.io/yourproject/2016-March-newsletter.html***. Copy this link and replace this part of the code `http://www.yoursite.com/newsletter/year-month-newsletter` with it.
-
-----------
-
-**TAGS** and **CATEGORIES** of the posts 
-
-When you add a tag or a category name in the front matter of a post, don't forget to add the responding markdown files in /journal/tag/ folder and in /journal/category folder, so they can always render when browsing the journal or searching in the respective page.
-
-----------
-
-All the credits and the helpers can be found at **ABOUT** page.
-
-
-----------
-
-Read <a href="https://sunbliss.github.io/photorama/journal/images-size-for-better-performance/">**this**</a> post if you want to ensure your website always loads fast.
-
-
-----------
-
-I hope you will find it useful for your projects, photographic or not.
-
-
-----------
-
-
-##License
-
-The MIT License (MIT)
-
-Copyright (c) 2014 Filippo Oretti, Dario Andrei
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
